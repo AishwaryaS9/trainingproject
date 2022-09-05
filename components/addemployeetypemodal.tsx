@@ -9,7 +9,7 @@ type inputType = {
   employeetypestatus: string;
 };
 
-const addemployeetypemodal = ({ openAddModal, handleCloseAddModal }: any) => {
+const Addemployeetypemodal = ({ openAddModal, handleCloseAddModal }: any) => {
   const initialValues = { skillname: "", skilldescription: "", skillstatus: ""};
   const [formValues, setFormValues] = useState(initialValues);
 
@@ -90,4 +90,4 @@ const addemployeetypemodal = ({ openAddModal, handleCloseAddModal }: any) => {
   )
 }
 
-export default addemployeetypemodal
+export default Addemployeetypemodal

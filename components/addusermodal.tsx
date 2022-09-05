@@ -12,7 +12,7 @@ type inputType = {
   role: string;
 };
 
-const addusermodal = ({ openAddModal, handleCloseAddModal }: any) => {
+const Addusermodal = ({ openAddModal, handleCloseAddModal }: any) => {
   const nameList = [{ label: "Admin" }, { label: "User" }];
   const initialValues = { name: "", email: "", phno: "", role: "" };
 
@@ -133,4 +133,4 @@ const addusermodal = ({ openAddModal, handleCloseAddModal }: any) => {
   )
 }
 
-export default addusermodal
+export default Addusermodal

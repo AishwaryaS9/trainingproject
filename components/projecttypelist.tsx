@@ -10,10 +10,10 @@ import { DataGrid, GridToolbar, GridColDef, GridValueGetterParams } from '@mui/x
 import ProjectTypeData from '../projecttypedata.json';
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import ViewProjectTypeDetails from "../components/viewprojecttypedetails";
+import ViewProjectTypeDetails from "../components/Viewprojecttypedetails";
 
 
-const projecttypelist = () => {
+const Projecttypelist = () => {
 
   const [openViewModal, setOpenViewModal] = useState<Boolean>(false);
   const handleOpenViewModal = () => setOpenViewModal(true);
@@ -152,4 +152,4 @@ const projecttypelist = () => {
   )
 }
 
-export default projecttypelist
+export default Projecttypelist

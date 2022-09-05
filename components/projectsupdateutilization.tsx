@@ -3,7 +3,7 @@ import { Button, Form, Container, Col, Row, Modal } from "react-bootstrap";
 import styles from '../styles/projectsupdateutilization.module.css'
 import { RiDeleteBin6Line } from 'react-icons/ri'
 
-const projectsupdateutilization = ({ openUpdateModal, handleCloseUpdateModal }: any) => {
+const Projectsupdateutilization = ({ openUpdateModal, handleCloseUpdateModal }: any) => {
 
 
     const initialValues = { name: "", client: "", projecttype: "", projectresponsible: "", startdate: "", enddate: "", projectstatus: "", monthlystatus: "" };
@@ -234,4 +234,4 @@ const projectsupdateutilization = ({ openUpdateModal, handleCloseUpdateModal }: 
     )
 }
 
-export default projectsupdateutilization
+export default Projectsupdateutilization

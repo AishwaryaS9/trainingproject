@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import styles from '../styles/forgotpassword.module.css'
-import SendEmail from '../components/sendemail';
-import CheckEmail from '../components/checkemail';
-import SetPassword from '../components/setnewpassword'
-import ResetPassword from '../components/passwordreset'
+import SendEmail from '../components/Sendemail';
+import CheckEmail from '../components/Checkemail';
+import SetPassword from '../components/Setnewpassword'
+import ResetPassword from '../components/Passwordreset'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,7 +12,7 @@ import { useRouter } from 'next/router'
 import vector from '../public/vector.png'
 import Image from 'next/image';
 
-function forgotpassword  ()  {
+function Forgotpassword  ()  {
   const router = useRouter();
     const [module, setModule] = useState(0);
 
@@ -36,4 +36,4 @@ function forgotpassword  ()  {
   )
 }
 
-export default forgotpassword
+export default Forgotpassword

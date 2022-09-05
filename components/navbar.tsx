@@ -5,7 +5,7 @@ import Avatar from '../public/Avatar.png'
 import Image from 'next/image'
 
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <>
 
@@ -26,4 +26,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

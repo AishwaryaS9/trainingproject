@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import Sidebar from '../components/sidebar'
-import SearchBar from '../components/searchbar'
-import SkillsList from '../components/skillslist'
+import Sidebar from '../components/Sidebar'
+import SearchBar from '../components/Searchbar'
+import SkillsList from '../components/Skillslist'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/skills.module.css'
-import AddSkillsModal from '../components/addskillmodal'
-import Navbar from '../components/navbar'
+import AddSkillsModal from '../components/Addskillmodal'
+import Navbar from '../components/Navbar'
 
 
-const skills = () => {
+const Skills = () => {
      //add skills
      const [openAddModal, setOpenAddModal] = useState(false);
      const handleOpenAddModal = () => setOpenAddModal(true);
@@ -37,4 +37,4 @@ const skills = () => {
     )
 }
 
-export default skills
+export default Skills

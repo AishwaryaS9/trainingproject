@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import Sidebar from '../components/sidebar'
-import SearchBar from '../components/searchbar'
-import EmployeesList from '../components/employeeslist'
-import Navbar from '../components/navbar'
+import Sidebar from '../components/Sidebar'
+import SearchBar from '../components/Searchbar'
+import EmployeesList from '../components/Employeeslist'
+import Navbar from '../components/Navbar'
 
 import styles from '../styles/employees.module.css'
-import AddEmployeeModal from '../components/addemployeemodal'
+import AddEmployeeModal from '../components/Addemployeemodal'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const employees = () => {
+const Employees = () => {
     //add employees
     const [openAddModal, setOpenAddModal] = useState(false);
     const handleOpenAddModal = () => setOpenAddModal(true);
@@ -35,4 +35,4 @@ const employees = () => {
     )
 }
 
-export default employees
+export default Employees

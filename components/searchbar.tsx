@@ -8,7 +8,7 @@ interface pageHeaderType {
     title: string;
     button: string;
   }
-const searchbar = ({ handleOpenModal, title, button }: pageHeaderType) => {
+const Searchbar = ({ handleOpenModal, title, button }: pageHeaderType) => {
     const [search, setSearch] = useState("");
     const [show, setShow] = useState(false);
 
@@ -35,4 +35,4 @@ const searchbar = ({ handleOpenModal, title, button }: pageHeaderType) => {
   )
 }
 
-export default searchbar
+export default Searchbar

@@ -10,7 +10,7 @@ import Image from 'next/image'
 import LargeLogo from '../public/Group 19809.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const sidebar = ({ isopen, setisopen }: any) => {
+const Sidebar = ({ isopen, setisopen }: any) => {
   const router = useRouter();
   const [showsubmenu, setShowsubmenu] = useState(false)
 
@@ -26,17 +26,17 @@ const sidebar = ({ isopen, setisopen }: any) => {
         </div>
         <div className={styles.adminusers}>
           <Image className={styles.adminuser_icon} src={Admin_User} />
-          <span className={styles.adminusertext} onClick={() => router.push('/adminusers')}>Admin Users</span>
+          <span className={styles.adminusertext} onClick={() => router.push('/Adminusers')}>Admin Users</span>
         </div>
 
         <div className={styles.projects}>
           <Image className={styles.projects_icon} src={Projects_Icon} />
-          <span className={styles.projectstext} onClick={() => router.push('/projects')}>Projects</span>
+          <span className={styles.projectstext} onClick={() => router.push('/Projects')}>Projects</span>
         </div>
 
         <div className={styles.employees}>
           <Image className={styles.employee_icon} src={Employee_Icon} />
-          <span className={styles.employeetext} onClick={() => router.push('/employees')}>Employees</span>
+          <span className={styles.employeetext} onClick={() => router.push('/Employees')}>Employees</span>
         </div>
 
         <div className={styles.settings}>
@@ -46,9 +46,9 @@ const sidebar = ({ isopen, setisopen }: any) => {
 
           <ul className={styles.submenu} onClick={submenuIconClick}>
 
-            <li className={styles.skills} onClick={() => router.push('/skills')}>Skills</li>
-            <li className={styles.projecttype} onClick={() => router.push('/projecttype')}>Project Type</li>
-            <li className={styles.employeetype} onClick={() => router.push('/employeetype')}>Employee Type</li>
+            <li className={styles.skills} onClick={() => router.push('/Skills')}>Skills</li>
+            <li className={styles.projecttype} onClick={() => router.push('/Projecttype')}>Project Type</li>
+            <li className={styles.employeetype} onClick={() => router.push('/Employeetype')}>Employee Type</li>
           </ul>
         </div>
       </div>
@@ -56,4 +56,4 @@ const sidebar = ({ isopen, setisopen }: any) => {
   )
 }
 
-export default sidebar
+export default Sidebar

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from '../styles/projectslist.module.css'
+import styles from '../styles/Projectslist.module.css'
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,11 +8,11 @@ import { DataGrid, GridToolbar, GridColDef, GridValueGetterParams } from '@mui/x
 import ProjectData from '../Project_data.json';
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import ViewProjectDetails from "../components/viewprojectdetails";
-import ProjectsUpdateUtilization from '../components/projectsupdateutilization'
+import ViewProjectDetails from "../components/Viewprojectdetails";
+import ProjectsUpdateUtilization from '../components/Projectsupdateutilization';
 
 
-const projectslist = () => {
+const Projectslist = () => {
 
   //view project
   const [openViewModal, setOpenViewModal] = useState<Boolean>(false);
@@ -195,4 +195,4 @@ const projectslist = () => {
   );
 }
 
-export default projectslist
+export default Projectslist

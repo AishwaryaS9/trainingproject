@@ -4,7 +4,7 @@ import styles from '../styles/employeesupdateutilization.module.css'
 import { RiDeleteBin6Line } from 'react-icons/ri'
 
 
-const employeesupdateutilization = ({ openUpdateModal, handleCloseUpdateModal }: any) => {
+const Employeesupdateutilization = ({ openUpdateModal, handleCloseUpdateModal }: any) => {
     const initialValues = { name: "", email: "", phonenumber: "", joiningdate: "", skills: "", employeetype: "", salary: "", utilization: "", revenueopportunity: "" };
     const [formValues, setFormValues] = useState(initialValues);
    
@@ -208,4 +208,4 @@ const employeesupdateutilization = ({ openUpdateModal, handleCloseUpdateModal }:
     )
 }
 
-export default employeesupdateutilization
+export default Employeesupdateutilization

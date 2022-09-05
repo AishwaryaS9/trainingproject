@@ -8,11 +8,11 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import ProjectTypeData from '../projecttypedata.json';
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import ViewEmployeeTypeDetails from "../components/viewemployeetypedetails";
+import ViewEmployeeTypeDetails from "../components/Viewemployeetypedetails";
 
 
 
-const employeetypelist = () => {
+const Employeetypelist = () => {
 
   const [openViewModal, setOpenViewModal] = useState<Boolean>(false);
   const handleOpenViewModal = () => setOpenViewModal(true);
@@ -140,4 +140,4 @@ const employeetypelist = () => {
   )
 }
 
-export default employeetypelist
+export default Employeetypelist

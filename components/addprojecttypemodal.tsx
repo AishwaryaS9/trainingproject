@@ -9,7 +9,7 @@ type inputType = {
   projecttypestatus: string;
 };
 
-const addprojecttypemodal = ({ openAddModal, handleCloseAddModal }: any) => {
+const Addprojecttypemodal = ({ openAddModal, handleCloseAddModal }: any) => {
 
   const initialValues = { projecttypename: "", projecttypedescription: "", projecttypestatus: ""};
   const [formValues, setFormValues] = useState(initialValues);
@@ -90,4 +90,4 @@ const addprojecttypemodal = ({ openAddModal, handleCloseAddModal }: any) => {
   )
 }
 
-export default addprojecttypemodal
+export default Addprojecttypemodal

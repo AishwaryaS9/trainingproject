@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import Sidebar from '../components/sidebar'
-import SearchBar from '../components/searchbar'
-import AdminUsersTable from '../components/adminuserslist'
-import AddUserModal from '../components/addusermodal'
-import Navbar from '../components/navbar'
+import Sidebar from '../components/Sidebar'
+import SearchBar from '../components/Searchbar'
+import AdminUsersTable from '../components/Adminuserslist'
+import AddUserModal from '../components/Addusermodal'
+import Navbar from '../components/Navbar'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const adminusers = () => {
+const Adminusers = () => {
 
   const [openAddModal, setOpenAddModal] = useState(false);
   const handleOpenAddModal = () => setOpenAddModal(true);
@@ -33,4 +33,4 @@ const adminusers = () => {
   )
 }
 
-export default adminusers
+export default Adminusers

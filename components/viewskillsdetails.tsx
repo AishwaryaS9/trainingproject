@@ -12,7 +12,7 @@ import styles from "../styles/viewskillsdetails.module.css";
 import Image from 'next/image'
 import CloseButton from '../public/closebutton.png'
 
-const viewskillsdetails = ({ openViewModal, handleCloseViewModal }: any) => {
+const Viewskillsdetails = ({ openViewModal, handleCloseViewModal }: any) => {
 
     const data = {
         id: 1,
@@ -105,4 +105,4 @@ const viewskillsdetails = ({ openViewModal, handleCloseViewModal }: any) => {
     )
 }
 
-export default viewskillsdetails
+export default Viewskillsdetails

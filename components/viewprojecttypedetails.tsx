@@ -13,7 +13,7 @@ import Image from 'next/image'
 import CloseButton from '../public/closebutton.png'
 
 
-const viewprojecttypedetails = ({ openViewModal, handleCloseViewModal }: any) => {
+const Viewprojecttypedetails = ({ openViewModal, handleCloseViewModal }: any) => {
 
     const data = {
         id: 1,
@@ -106,4 +106,4 @@ const viewprojecttypedetails = ({ openViewModal, handleCloseViewModal }: any) =>
   )
 }
 
-export default viewprojecttypedetails
+export default Viewprojecttypedetails

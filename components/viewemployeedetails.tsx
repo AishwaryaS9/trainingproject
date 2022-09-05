@@ -12,7 +12,7 @@ import styles from "../styles/viewemployeedetails.module.css";
 import Image from 'next/image'
 import CloseButton from '../public/closebutton.png'
 
-const viewemployeedetails = ({ openViewModal, handleCloseViewModal }: any) => {
+const Viewemployeedetails = ({ openViewModal, handleCloseViewModal }: any) => {
   const data = {
     id: "1",
     name: "Hayyim",
@@ -221,4 +221,4 @@ const viewemployeedetails = ({ openViewModal, handleCloseViewModal }: any) => {
   );
 };
 
-export default viewemployeedetails
+export default Viewemployeedetails

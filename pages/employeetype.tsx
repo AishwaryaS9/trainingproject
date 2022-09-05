@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import Sidebar from '../components/sidebar'
-import SearchBar from '../components/searchbar'
-import EmployeeType from '../components/employeetypelist'
+import Sidebar from '../components/Sidebar'
+import SearchBar from '../components/Searchbar'
+import EmployeeType from '../components/Employeetypelist'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import AddEmployeeTypeModal from '../components/addemployeetypemodal'
-import Navbar from '../components/navbar'
+import AddEmployeeTypeModal from '../components/Addemployeetypemodal'
+import Navbar from '../components/Navbar'
 
-const employeetype = () => {
+const Employeetype = () => {
     //add employeetype
     const [openAddModal, setOpenAddModal] = useState(false);
     const handleOpenAddModal = () => setOpenAddModal(true);
@@ -32,4 +32,4 @@ const employeetype = () => {
     )
 }
 
-export default employeetype
+export default Employeetype

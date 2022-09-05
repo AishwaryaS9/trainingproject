@@ -5,12 +5,12 @@ import employeesdata from '../employeesdata.json';
 
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { IconButton, Menu, MenuItem, Typography } from "@mui/material";
-import ViewEmployeeDetails from '../components/viewemployeedetails'
-import EmployeesUpdateUtilization from '../components/employeesupdateutilization'
+import ViewEmployeeDetails from '../components/Viewemployeedetails'
+import EmployeesUpdateUtilization from '../components/Employeesupdateutilization'
 
 
 
-const employeeslist = () => {
+const Employeeslist = () => {
   //view project
   const [openViewModal, setOpenViewModal] = useState<Boolean>(false);
   const handleOpenViewModal = () => setOpenViewModal(true);
@@ -195,4 +195,4 @@ handleCloseUpdateModal={handleCloseUpdateModal}
   )
 }
 
-export default employeeslist
+export default Employeeslist

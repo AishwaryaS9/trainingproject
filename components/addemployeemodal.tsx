@@ -19,7 +19,7 @@ type inputType = {
 };
 
 
-const addemployeemodal = ({ openAddModal, handleCloseAddModal }: any) => {
+const Addemployeemodal = ({ openAddModal, handleCloseAddModal }: any) => {
 
     const initialValues = { name: "", email: "", phonenumber: "", joiningdate: "", skills: "", employeetype: "", salary: "", utilization: "", revenueopportunity: "" };
     const [formValues, setFormValues] = useState(initialValues);
@@ -175,4 +175,4 @@ const addemployeemodal = ({ openAddModal, handleCloseAddModal }: any) => {
     )
 }
 
-export default addemployeemodal
+export default Addemployeemodal

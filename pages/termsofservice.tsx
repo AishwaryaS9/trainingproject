@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const termsofservice = () => {
+const Termsofservice = () => {
   return (
     <>
     <div className="container">
@@ -13,4 +13,4 @@ const termsofservice = () => {
   )
 }
 
-export default termsofservice
+export default Termsofservice

@@ -17,7 +17,7 @@ type inputType = {
 
 
 
-const addprojectmodal = ({ openAddModal, handleCloseAddModal }: any) => {
+const Addprojectmodal = ({ openAddModal, handleCloseAddModal }: any) => {
 
 
   const initialValues = { name: "", client: "", projecttype: "", projectresponsible: "",startdate:"", enddate:"",projectstatus:"", monthlystatus:"" };
@@ -159,4 +159,4 @@ const addprojectmodal = ({ openAddModal, handleCloseAddModal }: any) => {
   )
 }
 
-export default addprojectmodal
+export default Addprojectmodal

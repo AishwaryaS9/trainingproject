@@ -12,7 +12,7 @@ import {
   import Image from 'next/image'
   import CloseButton from '../public/closebutton.png'
   
-  const viewadmindetails = ({ openViewModal, handleCloseViewModal }: any) => {
+  const Viewadmindetails = ({ openViewModal, handleCloseViewModal }: any) => {
     const data = {
       id: "1",
       Name: "Hewet MacKartan",
@@ -141,4 +141,4 @@ import {
     )
   }
   
-  export default viewadmindetails
+  export default Viewadmindetails

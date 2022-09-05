@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const privacypolicy = () => {
+const Privacypolicy = () => {
   return (
     <>
     <div className="container">
@@ -13,4 +13,4 @@ const privacypolicy = () => {
   )
 }
 
-export default privacypolicy
+export default Privacypolicy

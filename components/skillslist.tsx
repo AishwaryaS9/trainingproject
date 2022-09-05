@@ -11,10 +11,10 @@ import { DataGrid, GridToolbar, GridColDef, GridValueGetterParams } from '@mui/x
 import SkillsData from '../skillsdata.json';
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import ViewSkillsDetails from "../components/viewskillsdetails";
+import ViewSkillsDetails from "../components/Viewskillsdetails";
 
 
-const skillslist = () => {
+const Skillslist = () => {
 
   const [openViewModal, setOpenViewModal] = useState<Boolean>(false);
   const handleOpenViewModal = () => setOpenViewModal(true);
@@ -150,4 +150,4 @@ const skillslist = () => {
   );
 }
 
-export default skillslist
+export default Skillslist

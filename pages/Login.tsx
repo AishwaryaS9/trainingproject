@@ -68,7 +68,7 @@ const Login = (props: any) => {
                             //Success Message
                             //setSuccessMsg('You are successfully logged in');
 
-                            router.push('/adminusers')
+                            router.push('/Adminusers')
 
                         }
                         else {
@@ -217,7 +217,7 @@ const Login = (props: any) => {
 
                                     </div>
 
-                                    <Link href="/forgotpassword"><a className={styles.linkText}>Forgot your password?</a></Link>
+                                    <Link href="/Forgotpassword"><a className={styles.linkText}>Forgot your password?</a></Link>
                                 </div>
                                 {/* </form> */}
 

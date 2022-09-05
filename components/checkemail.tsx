@@ -4,7 +4,7 @@ import vector from '../public/vector.png'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
-const checkemail = ({ setModule }: any) => {
+const Checkemail = ({ setModule }: any) => {
   const router = useRouter();
   return (
     <>
@@ -31,4 +31,4 @@ const checkemail = ({ setModule }: any) => {
   )
 }
 
-export default checkemail
+export default Checkemail

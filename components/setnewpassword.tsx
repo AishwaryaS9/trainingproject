@@ -7,7 +7,7 @@ import vector from '../public/vector.png'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
-const setnewpassword = ({ setModule }: any) => {
+const Setnewpassword = ({ setModule }: any) => {
 
     const [password, setPassword] = useState({
         firstPassword: '',
@@ -124,4 +124,4 @@ const setnewpassword = ({ setModule }: any) => {
     )
 }
 
-export default setnewpassword
+export default Setnewpassword

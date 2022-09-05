@@ -6,7 +6,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { Box, IconButton, Menu, MenuItem, Typography } from "@mui/material";
 
 import { Button } from 'react-bootstrap';
-import ViewAdminDetails from "../components/viewadmindetails";
+import ViewAdminDetails from "../components/Viewadmindetails";
 
 // import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 // import CancelIcon from "@mui/icons-material/Cancel";
@@ -15,7 +15,7 @@ import CheckCircleImage from '../public/check-circle(1).png';
 import CancelImage from '../public/x-circle.png';
 import CheckCircle from '../public/check-circle.png';
 
-const adminuserlist = () => {
+const Adminuserlist = () => {
   //view project
   const [openViewModal, setOpenViewModal] = useState<Boolean>(false);
   const handleOpenViewModal = () => setOpenViewModal(true);
@@ -204,4 +204,4 @@ const adminuserlist = () => {
   );
 }
 
-export default adminuserlist
+export default Adminuserlist

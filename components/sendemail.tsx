@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/sendemail.module.css'
 
-const sendemail = ({ setModule }: any) => {
+const Sendemail = ({ setModule }: any) => {
   return (
     <>
 <div className="d-flex justify-content-center">
@@ -26,4 +26,4 @@ const sendemail = ({ setModule }: any) => {
   )
 }
 
-export default sendemail
+export default Sendemail

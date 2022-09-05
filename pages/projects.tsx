@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import Sidebar from '../components/sidebar'
-import SearchBar from '../components/searchbar'
-import ProjectsList from '../components/projectslist'
+import Sidebar from '../components/Sidebar'
+import SearchBar from '../components/Searchbar'
+import ProjectsList from '../components/Projectslist'
 import styles from '../styles/projects.module.css'
-import AddProjectModal from '../components/addprojectmodal'
+import AddProjectModal from '../components/Addprojectmodal'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '../components/navbar'
+import Navbar from '../components/Navbar'
 
 
-const projects = () => {
+const Projects = () => {
     //add project
     const [openAddModal, setOpenAddModal] = useState(false);
     const handleOpenAddModal = () => setOpenAddModal(true);
@@ -35,4 +35,4 @@ const projects = () => {
     )
 }
 
-export default projects
+export default Projects

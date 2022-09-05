@@ -9,7 +9,7 @@ type inputType = {
   skillstatus: string;
 };
 
-const addskillmodal = ({ openAddModal, handleCloseAddModal }: any) => {
+const Addskillmodal = ({ openAddModal, handleCloseAddModal }: any) => {
 
   const initialValues = { skillname: "", skilldescription: "", skillstatus: ""};
   const [formValues, setFormValues] = useState(initialValues);
@@ -92,4 +92,4 @@ const addskillmodal = ({ openAddModal, handleCloseAddModal }: any) => {
   )
 }
 
-export default addskillmodal
+export default Addskillmodal

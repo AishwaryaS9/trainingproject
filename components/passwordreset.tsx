@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import styles from '../styles/passwordreset.module.css'
 
-const passwordreset = () => {
+const Passwordreset = () => {
     const router = useRouter();
     return (
         <div className="d-flex justify-content-center">
@@ -19,4 +19,4 @@ const passwordreset = () => {
   )
 }
 
-export default passwordreset
+export default Passwordreset
