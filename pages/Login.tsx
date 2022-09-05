@@ -211,7 +211,10 @@ const Login = (props: any) => {
                                     >Log in
                                     </button>
                                     <div className={styles.policy}>
-                                        <p className='term'>By signing you agree to Health <a href="/" className='linkText'>Terms of service</a> and <br /><a href="/" className='linkText'>Privacy policy.</a></p>
+                                        {/* <p className='term'>By signing you agree to Health <Link href="/" className='linkText'>Terms of service</Link> and <br /><Link href="/" className='linkText'>Privacy policy.</Link></p> */}
+                                        <p className='term'>By signing you agree to Health <button className='linkText'
+                                         style={{background:'none', border:'none',textDecoration:'underline', color:'#1996FC'}} >Terms of service</button> and <br /><button className='linkText' style={{background:'none', border:'none',textDecoration:'underline', color:'#1996FC'}}>Privacy policy.</button></p>
+
                                     </div>
 
                                     <Link href="/forgotpassword"><a className={styles.linkText}>Forgot your password?</a></Link>
