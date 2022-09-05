@@ -1,0 +1,234 @@
+
+.alert {
+    position: fixed;
+    width: 440px;
+    height: 100px;
+    left: 834px;
+    top: 30px;
+    border-left: 4px solid #EB5757;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.alertcontainer {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+
+.cancel {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    left: 854px;
+    top: 40px;
+
+
+
+}
+
+.errormsg {
+    position: fixed;
+    width: 315px;
+    height: 44px;
+    margin-left: 52px;
+    top: 58px;
+    margin-bottom: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    /* or 138% */
+    display: flex;
+    align-items: center;
+
+    color: #EB5757;
+}
+
+.cancelbutton {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 25rem;
+    top: 46px;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+
+
+.leftcontent {
+    background: url('../public/jj-ying-7JX0-bfiuxQ-unsplash\ 1.png');
+    /* position: absolute; */
+    width: 676px;
+    height: 901px;
+    top: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 118px;
+    height: 91px;
+    left: 60px;
+    top: 60px;
+}
+
+
+.login_title {
+    position: absolute;
+    width: 127px;
+    height: 52px;
+    left: 835px;
+    top: 187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    text-align: center;
+    color: #212121;
+}
+
+.emailtext {
+    position: absolute;
+    width: 32px;
+    height: 15px;
+    left: 834px;
+    top: 292px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #212121;
+    opacity: 0.4;
+}
+
+.emailinput {
+    position: absolute;
+    width: 450px;
+    left: 834px;
+    top: 340px;
+    background: white;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ebebeb;
+    outline: none;
+}
+
+.emailinput :focus {
+    box-shadow: none;
+    border-bottom-width: 2px;
+    padding-bottom: 0;
+}
+
+
+.passwordtext {
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    left: 833px;
+    top: 412px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #212121;
+    opacity: 0.4;
+}
+
+.passwordinput {
+    position: absolute;
+    width: 450px;
+    left: 834px;
+    top: 482px;
+    background: white;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ebebeb;
+    outline: none;
+}
+
+.validation {
+    position: absolute;
+    width: 297px;
+    height: 17px;
+    left: 834px;
+    top: 510px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    opacity: 0.4;
+}
+
+.btnlogin {
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    left: 834px;
+    top: 561px;
+    border: 0;
+    background: #D2D3D9;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.btnlogin:hover {
+    background: #1996FC;
+    box-shadow: 0px 0px 4px rgba(28, 30, 33, 0.16);
+    border-radius: 6px;
+}
+
+.policy {
+    position: absolute;
+    width: 328px;
+    height: 34px;
+    left: 895px;
+    top: 621px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #212121;
+}
+
+.linkText {
+    position: absolute;
+    width: 156px;
+    height: 17px;
+    left: 987px;
+    top: 693px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1996FC;
+}
+
+.visibilityIcon {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1262px;
+    top: 482px;
+    cursor: pointer;
+}

@@ -1,0 +1,180 @@
+.formgroup {
+    margin-bottom: 20px;
+}
+
+
+.modaltitle{
+    width: auto;
+    height: 33px;
+    left: 410px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #111928;
+}
+
+.form_label {
+    width: auto;
+    left: 28.47%;
+    right: 68.61%;
+    top: 22.95%;
+    bottom: 75.73%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+
+.name_form {
+    left: 28.47%;
+    right: 42.57%;
+    top: 24.93%;
+    bottom: 70.54%;
+}
+
+
+
+.employeeid_form {
+    left: 59.51%;
+    right: 28.47%;
+    top: 24.93%;
+    bottom: 70.54%;
+}
+
+
+
+.month_form {
+    left: 28.47%;
+    right: 51.04%;
+    top: 34.28%;
+    bottom: 61.19%;
+}
+
+
+.year_form {
+    left: 51.04%;
+    right: 28.47%;
+    top: 34.28%;
+    bottom: 61.19%;
+}
+
+
+
+.salary_form {
+    left: 28.47%;
+    right: 58.61%;
+    top: 43.63%;
+    bottom: 51.84%;
+    width: 100%;
+}
+
+
+
+.totalutilization_form {
+    left: 43.54%;
+    right: 43.54%;
+    top: 43.63%;
+    bottom: 51.84%;
+    width: 100%;
+}
+
+
+
+.revenueloss_form {
+    width: 100%;
+    left: 58.61%;
+    right: 28.47%;
+    top: 43.63%;
+    bottom: 51.84%;
+}
+
+
+
+.projectname_form {
+    left: 28.47%;
+    right: 51.04%;
+    top: 55.9%;
+    bottom: 39.57%;
+    width: 220px;
+}
+
+
+.utilization_form {
+    left: 51.04%;
+    right: 35.07%;
+    top: 55.9%;
+    bottom: 39.57%;
+    width: 150px;
+}
+
+
+.deleteicon{
+
+    left: 15%;
+    right: 15%;
+    margin-top: 35px;
+   color: #F05252;
+}
+
+
+.addbtn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    gap: 8px;
+    height: 41px;
+    left: 28.47%;
+    right: 62.15%;
+    top: calc(50% - 41px/2 + 24px);
+    background: #FFFFFF;
+    border: 1px solid #262626;
+    border-radius: 6px;
+  }
+  
+  .cancelbtn{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  font-weight: 600;
+  width: 88px;
+  height: 42px;
+  left: 815px;
+  top: 634px;
+  
+  /* white */
+  background: #FFFFFF;
+  
+  /* cool-gray/300 */
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  
+  }
+  
+  .submitbtn{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  width: 115px;
+  height: 42px;
+  left: 915px;
+  top: 634px;
+  color: #9CA3AF;
+  background: #F6F6F6;
+  border-radius: 6px;
+  }

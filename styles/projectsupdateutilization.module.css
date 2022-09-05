@@ -1,0 +1,177 @@
+.formgroup {
+    margin-bottom: 20px;
+}
+
+.modaltitle{
+    width: auto;
+    height: 33px;
+    left: 410px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #111928;
+}
+
+.form_label {
+    width: auto;
+    height: 14px;
+    left: 410px;
+    top: 243px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.projectname_form {
+    width: 250px;
+    height: 40px;
+    left: 410px;
+    top: 264px;
+}
+
+
+.projecttype_form {
+    width: 166px;
+    height: 40px;
+        left: 857px;
+    top: 264px;
+}
+
+
+.month_form {
+    height: 40px;
+    left: 410px;
+    top: 363px;
+}
+
+
+.year_form {
+    height: 40px;
+    left: 735px;
+    top: 363px;
+}
+
+
+.monthlycost_form {
+    height: 40px;
+    left: 410px;
+    top: 462px;
+}
+
+.monthlyutilization_form {
+    height: 40px;
+    left: 627px;
+    top: 462px;
+}
+
+
+
+.cost_ytd_form {
+    height: 40px;
+    left: 844px;
+    top: 462px;
+}
+
+
+
+.employeename_form {
+    height: 40px;
+    left: 410px;
+    top: 592px;
+    width: 200px;
+}
+
+
+.utilization_form {
+    height: 40px;
+    left: 735px;
+    top: 592px;
+}
+
+
+.cost_form {
+    height: 40px;
+    left: 875px;
+    top: 592px;
+    width: 65px;
+
+}
+
+
+
+.employeename_form {
+    height: 40px;
+    left: 410px;
+    top: 682px;
+}
+
+
+.deleteicon{
+
+    left: 15%;
+    right: 15%;
+    margin-top: 35px;
+   color: #F05252;
+}
+
+.addbtn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    gap: 8px;
+    height: 41px;
+    left: 28.47%;
+    right: 62.15%;
+    top: calc(50% - 41px/2 + 24px);
+    background: #FFFFFF;
+    border: 1px solid #262626;
+    border-radius: 6px;
+  }
+  
+  .cancelbtn{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  font-weight: 600;
+  width: 88px;
+  height: 42px;
+  left: 815px;
+  top: 634px;
+  
+  /* white */
+  background: #FFFFFF;
+  
+  /* cool-gray/300 */
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  
+  }
+  
+  .submitbtn{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px;
+  width: 115px;
+  height: 42px;
+  left: 915px;
+  top: 634px;
+  color: #9CA3AF;
+  background: #F6F6F6;
+  border-radius: 6px;
+  }

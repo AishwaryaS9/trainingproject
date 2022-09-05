@@ -1,0 +1,14 @@
+.pagination{
+    position: absolute;
+width: 1339px;
+height: 76px;
+left: 81px;
+top: 938px;
+
+
+}
+
+.layout{
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+}

@@ -1,0 +1,89 @@
+.employeemodalcontainer {
+  padding: 2rem;
+  position: absolute;
+  width: 700px;
+  height: 550px;
+  left: 370px;
+  top: 140px;
+  background: #FFFFFF;
+  border-radius: 16px;
+
+}
+
+.closebutton {
+  position: absolute;
+  left: 610px;
+  top: 5px;
+  bottom: 10px;
+}
+
+.gridbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  width: 502px;
+  height: 59px;
+  left: 410px;
+  top: 708px;
+  padding: 2rem;
+}
+
+.subtitle {
+
+  left: 28.47%;
+  right: 65.14%;
+  top: 24.17%;
+  bottom: 74.22%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+
+  color: #757575;
+
+
+}
+
+
+.details {
+  padding-top: 10px;
+
+}
+
+.title {
+  width: 133px;
+  height: 33px;
+  left: 410px;
+  top: 180px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+
+  /* identical to box height, or 33px */
+
+  /* cool-gray/900 */
+  color: #111928;
+}
+
+.field {
+  left: 28.47%;
+  right: 67.36%;
+  top: 26.72%;
+  bottom: 71.01%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #111928;
+}

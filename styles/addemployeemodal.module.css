@@ -1,0 +1,113 @@
+.formgroup {
+    margin-bottom: 20px;
+}
+
+.modaltitle {
+    width: auto;
+    height: 33px;
+    left: 410px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #111928;
+
+}
+
+
+
+.form_label {
+    left: 28.47%;
+    right: 68.61%;
+    top: 23.14%;
+    bottom: 75.54%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.form_input {
+    left: 28.47%;
+    right: 28.47%;
+    top: 25.12%;
+    bottom: 70.35%;
+}
+
+.phonenumber_form_control {
+    box-sizing: border-box;
+    left: 28.47%;
+    right: 46.53%;
+    top: 43.81%;
+    bottom: 51.65%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    width: 102%;
+    border-radius: 6px;
+}
+
+
+
+.joiningdate_form {
+    left: 55.56%;
+    right: 28.47%;
+    top: 43.81%;
+    bottom: 51.65%;
+    width: 145px;
+
+}
+
+.grid_form_input {
+    height: 40px;
+    left: 410px;
+    top: 455px;
+}
+
+.revenueopportunity_form {
+    left: 28.47%;
+    right: 51.04%;
+    top: 71.86%;
+    bottom: 23.61%;
+    width: 47%;
+}
+
+
+.cancelbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px;
+    font-weight: 600;
+    width: 88px;
+    height: 42px;
+    left: 815px;
+    top: 634px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+
+}
+
+.submitbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px;
+    width: auto;
+    height: 42px;
+    left: 915px;
+    top: 634px;
+    color: #9CA3AF;
+    background: #F6F6F6;
+    border-radius: 6px;
+}

@@ -1,0 +1,25 @@
+.container {
+    width: 1339px;
+    height: 792px;
+    left: 81px;
+    top: 222px;
+
+    background: #FFFFFF;
+}
+
+.datagrid {
+    width: 1339px;
+    height: 792px;
+    left: 81px;
+    top: 170px;
+
+    background: #FFFFFF;
+}
+
+.userid {
+    position: absolute;
+    width: 90px;
+    height: 728px;
+    left: 147px;
+    top: 189px;
+}

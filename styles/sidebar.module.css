@@ -1,0 +1,218 @@
+.sidebar {
+	position: fixed;
+	width: 60px;
+	height: 1024px;
+	left: 0px;
+	top: 0px;
+	transition: all 0.5s;
+	z-index: 1;
+	overflow: hidden;
+	background: #1996FC;
+}
+
+.sidebar::after {
+	position: absolute;
+	width: 60px;
+	height: 1024px;
+	left: 0px;
+	top: 0px;
+	background: #1996FC;
+}
+
+.sidebar:hover::after {
+	left: 200px;
+	width: 51px;
+
+}
+
+.sidebar:hover {
+	width: 200px;
+
+}
+
+.adminusers:hover,
+.projects:hover,
+.employees:hover,
+.settings:hover {
+	background-color: #FFF;
+	color: #1996fc;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.adminusers .adminusertext:hover,
+.projects .projectstext:hover,
+.employees .employeetext:hover,
+.settings .settingstext:hover {
+	background-color: #FFF;
+	color: #1996fc;
+	cursor: pointer;
+}
+
+.settings .skills:hover,
+.settings .projecttype:hover,
+.settings .employeetype:hover {
+	background-color: #FFF;
+	color: #1996fc;
+	width: 200px;
+	height: 35px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+/* .adminuser_icon:hover,
+.projects_icon:hover,
+.employee_icon:hover,
+.settings_icon:hover {
+	color: #1996FC;
+} */
+
+.LargeLogo {
+	position: absolute;
+	width: 120px;
+	height: 29.94px;
+	left: 16px;
+	top: 20px;
+}
+
+.adminusers {
+	position: absolute;
+	width: 196px;
+	height: 40px;
+	left: 18px;
+	top: 90px;
+}
+
+
+
+.adminusertext {
+	position: absolute;
+	width: 95px;
+	height: 24px;
+	left: 48px;
+	top: 2px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.projects {
+	position: absolute;
+	width: 196px;
+	height: 40px;
+	left: 14px;
+	top: 131px;
+}
+
+.projectstext {
+	position: absolute;
+	width: 59px;
+	height: 24px;
+	left: 48px;
+	top: 2px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.employees {
+	position: absolute;
+	width: 196px;
+	height: 40px;
+	left: 14px;
+	top: 181px;
+}
+
+.employeetext {
+	position: absolute;
+	width: 78px;
+	height: 24px;
+	left: 48px;
+	top: 2px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.settings {
+	position: absolute;
+	width: 196px;
+	height: 40px;
+	left: 14px;
+	top: 231px;
+}
+
+.settingstext {
+	position: absolute;
+	width: 59px;
+	height: 24px;
+	left: 48px;
+	top: 2px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.settingsdropdown {
+	width: 24px;
+	height: 24px;
+	left: 172px;
+	top: 239px;
+}
+
+.skills {
+	position: absolute;
+	width: 39px;
+	height: 24px;
+	left: 48px;
+	top: 50px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+	list-style: none;
+}
+
+.projecttype {
+	position: absolute;
+	width: 89px;
+	height: 24px;
+	left: 48px;
+	top: 95px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+	list-style: none;
+}
+
+.employeetype {
+	position: absolute;
+	width: 108px;
+	height: 24px;
+	left: 48px;
+	top: 145px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+	list-style: none;
+}

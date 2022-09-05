@@ -1,0 +1,86 @@
+.formgroup {
+    margin-bottom: 20px;
+}
+
+.modaltitle {
+    width: auto;
+    height: 33px;
+    left: 410px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #111928;
+}
+
+.form_label {
+    left: 28.47%;
+    right: 61.04%;
+    top: 22.29%;
+    bottom: 76.39%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.form_input {
+    left: 28.47%;
+    right: 28.47%;
+    top: 24.27%;
+    bottom: 71.2%;
+}
+
+.projecttypedescription_form {
+    height: 120px;
+    left: 410px;
+    top: 376px;
+}
+
+
+.projecttypestatus_form {
+    left: 28.47%;
+    right: 51.04%;
+    top: 52.03%;
+    bottom: 43.44%;
+    width: 50%;
+}
+
+.cancelbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px;
+    font-weight: 600;
+    width: 88px;
+    height: 42px;
+    left: 815px;
+    top: 634px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+
+}
+
+.submitbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px;
+    width: auto;
+    height: 42px;
+    left: 915px;
+    top: 634px;
+    color: #9CA3AF;
+    background: #F6F6F6;
+    border-radius: 6px;
+}

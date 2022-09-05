@@ -1,0 +1,80 @@
+/*back button*/
+
+.prevbtn {
+    position: absolute;
+    width: 54px;
+    height: 17px;
+    left: 68px;
+    top: 58px;
+}
+
+.vector {
+    position: absolute;
+    left: 4.72%;
+    right: 94.64%;
+    top: 6.56%;
+    bottom: 91.67%;
+    opacity: 0.4;
+}
+
+.backbtn {
+    position: absolute;
+    width: 34px;
+    height: 17px;
+    left: 88px;
+    top: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A6A6A6;
+    text-decoration: none;
+}
+
+/*back button*/
+
+
+.h3_title {
+    position: absolute;
+    width: 318px;
+    height: 46px;
+    left: 495px;
+    top: 196px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    color: #212121;
+}
+
+.subtitle {
+    position: absolute;
+    width: 451px;
+    height: 58px;
+    left: 495px;
+    top: 247px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #212121;
+}
+
+.resend {
+    position: absolute;
+    width: 451px;
+    height: 29px;
+    left: 495px;
+    top: 326px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #212121;
+}
