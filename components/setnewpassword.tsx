@@ -6,6 +6,7 @@ import { eye } from 'react-icons-kit/feather/eye'
 import vector from '../public/vector.png'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import { Link } from 'react-router-dom'
 
 const Setnewpassword = ({ setModule }: any) => {
 
@@ -116,7 +117,10 @@ const Setnewpassword = ({ setModule }: any) => {
                         </div>
 
                         <button className={styles.resetbtn} onClick={() => setModule(3)}>Reset password</button>
-                        <a href="/" className={styles.linkText}>Cancel</a>
+                        {/* <Link href="/" className={styles.linkText}><a>Cancel</a></Link> */}
+
+                        <p onClick={() => router.push('/')} className={styles.linkText}>Cancel</p>
+
                     </form>
                 </div>
             </div>

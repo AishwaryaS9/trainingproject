@@ -17,7 +17,7 @@ const Sendemail = ({ setModule }: any) => {
 
                             <button className={styles.btnforgotpassword} type="submit" onClick={() => setModule(1)}>Send me instructions</button>
 
-                            <a className={styles.linkText}>Cancel</a>
+                            <a  href="/" className={styles.linkText}>Cancel</a>
                         </form>
                     </div>
                 </div>
