@@ -8,7 +8,7 @@ const Sendemail = ({ setModule }: any) => {
                 <div className="col-md-7">
                     <div className="card-body">
                         <h3 className={styles.h3_title}>Forgot Password</h3>
-                        <p className={styles.subtitle}>Enter your email address, and we'll send you an email with all the instructions.</p>
+                        <p className={styles.subtitle}>Enter your email address, and  we&apos;ll send you an email with all the instructions.</p>
                         <form>
                             <div className="form-group">
                                 <label className={styles.emailtext} htmlFor="exampleInputEmail1">Email </label>

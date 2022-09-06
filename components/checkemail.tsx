@@ -22,7 +22,7 @@ const Checkemail = ({ setModule }: any) => {
           <h3 className={styles.h3_title}>Check your email</h3>
           <p className={styles.subtitle}>We sent a password reset link to <p className='fw-bold'>bingwen@hotmail.com</p></p>
           <div className={styles.resend}>
-            <p className='term'>Didn't receive the email?<a className='linkText' onClick={() => setModule(2)}> Click to resend</a></p>
+            <p className='term'>Didn&apos;t receive the email?<a className='linkText' onClick={() => setModule(2)}> Click to resend</a></p>
           </div>
         </div>
       </div>

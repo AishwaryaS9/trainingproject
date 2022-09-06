@@ -161,14 +161,14 @@ const Login = (props: any) => {
                                     <div className={styles.alert}>
                                         <div className={styles.cancelbutton}>
 
-                                            <Image src={cancelbtn} onClick={() => setShow(!show)} />
+                                            <Image alt='' src={cancelbtn} onClick={() => setShow(!show)} />
 
                                         </div>
 
 
                                         <div className={styles.alertcontainer}>
 
-                                            <Image src={cancel} className={styles.cancel} />
+                                            <Image alt='' src={cancel} className={styles.cancel} />
 
                                             <p className={styles.errormsg}>{ErrorMsg}</p>
                                         </div>
